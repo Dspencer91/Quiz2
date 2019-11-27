@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Quiz2</title>
+    <title>Dillon Spencer</title>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -14,11 +14,13 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <a class="navbar-brand" href="#">Quiz 2</a>
+  <%= link_to 'Quiz 2', root_path, class: 'navbar-brand' %>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-md-0">
       <li class="nav-item">
         <a class="nav-link" href="#">Link</a>
+        <%= link_to 'New Input', new_input_path, class: 'nav-link' %>
       </li>
     </ul>
   </div>
